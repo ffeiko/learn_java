@@ -1,4 +1,4 @@
-package com.ffeiko.Base64;
+package com.ffeiko.decode.Base64;
 
 import org.junit.Test;
 

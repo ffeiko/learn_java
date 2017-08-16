@@ -1,14 +1,10 @@
-package com.ffeiko.Base64;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+package com.ffeiko.decode.Base64;
 
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
+
+import java.io.*;
+
 /**
  * 图片base64加解密
  * @author zhushangjin
