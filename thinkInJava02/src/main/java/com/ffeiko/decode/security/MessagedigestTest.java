@@ -14,7 +14,6 @@ public class MessagedigestTest {
     public void test01() {
         try {
             byte[] input = "wangjingfei".getBytes();
-
             MessageDigest sha =   MessageDigest.getInstance("wangjingfei");
             sha.update(input);
             byte[] bytes = sha.digest();
