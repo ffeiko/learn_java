@@ -24,17 +24,11 @@ public class PhaserExample {
                     }
                 }
             };
-
             tasks.add(runnable);
-
         }
 
         new PhaserExample().runTasks(tasks);
-
     }
-
-
-
 
     void runTasks(List<Runnable> tasks) throws InterruptedException {
 
@@ -43,7 +37,6 @@ public class PhaserExample {
                 return phase >= 1 || registeredParties == 0;
             }
         };
-
         for (final Runnable task : tasks) {
             phaser.register();
             new Thread() {
@@ -59,8 +52,4 @@ public class PhaserExample {
 
         phaser.arriveAndDeregister();
     }
-
-
-
-
 }

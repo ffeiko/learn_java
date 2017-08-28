@@ -77,5 +77,4 @@ public class Base64Demo02 {
         System.out.println("decode: " + new String(decodeBytes));
     }
 
-
 }

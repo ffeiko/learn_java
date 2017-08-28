@@ -17,7 +17,6 @@ public class TestJVMStack1 {
     public  void testStack (){
         try {
             recursion(1L,2L,3L);
-
         }catch (Throwable e){
             System.out.println("deep of stack is" + count);
             e.printStackTrace();
