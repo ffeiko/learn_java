@@ -27,7 +27,7 @@ public enum Color {
     public int getIndex() {
         return index;
     }
-
+    //枚举不需要提供set方法,因为值不需要改变
     public void setIndex(int index) {
         this.index = index;
     }
