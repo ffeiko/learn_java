@@ -14,7 +14,7 @@ public class test1 {
         System.out.println("---------------------------------------------------------");
         enum1 test = enum1.TUE;
         switch (test) {
-            case MON:
+            case THU:
                 System.out.println("今天是星期一");
                 break;
             case TUE:
