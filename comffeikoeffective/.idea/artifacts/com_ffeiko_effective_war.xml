@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.ffeiko.effective:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="com.ffeiko.effective.war">
+      <element id="artifact" artifact-name="com.ffeiko.effective:war exploded" />
+    </root>
+  </artifact>
+</component>
